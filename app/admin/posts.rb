@@ -13,6 +13,6 @@ ActiveAdmin.register Post do
       f.inputs 'Content' do
         f.rich_text_area :content
       end
-    f.action
+      f.actions
     end
 end
